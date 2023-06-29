@@ -1,0 +1,51 @@
+customer_id,first_name,last_name,email,phone_number,age,gender,city,country
+1,John,Doe,johndoe@example.com,123-456-7890,35,Male,New York,USA
+2,Jane,Smith,janesmith@example.com,987-654-3210,28,Female,San Francisco,USA
+3,Michael,Johnson,michaeljohnson@example.com,456-789-0123,42,Male,Chicago,USA
+4,Emily,Davis,emilydavis@example.com,789-012-3456,31,Female,Boston,USA
+5,David,Brown,davidbrown@example.com,234-567-8901,39,Male,Los Angeles,USA
+6,Sarah,Miller,sarahmiller@example.com,678-901-2345,45,Female,Miami,USA
+7,Robert,Anderson,robertanderson@example.com,012-345-6789,33,Male,Dallas,USA
+8,Olivia,Thompson,oliviathompson@example.com,345-678-9012,29,Female,Houston,USA
+9,James,Wilson,jameswilson@example.com,678-901-2345,37,Male,Seattle,USA
+10,Sophia,Taylor,sophiataylor@example.com,901-234-5678,26,Female,Denver,USA
+11,William,Lee,williamlee@example.com,123-456-7890,41,Male,Phoenix,USA
+12,Emma,Clark,emmaclark@example.com,987-654-3210,33,Female,Austin,USA
+13,Alexander,Hall,alexanderhall@example.com,456-789-0123,35,Male,San Diego,USA
+14,Abigail,White,abigailwhite@example.com,789-012-3456,27,Female,Portland,USA
+15,Benjamin,Scott,benjaminscott@example.com,234-567-8901,30,Male,Atlanta,USA
+16,Grace,Green,gracegreen@example.com,678-901-2345,32,Female,Nashville,USA
+17,Joseph,Hill,josephhill@example.com,012-345-6789,38,Male,Philadelphia,USA
+18,Elizabeth,Adams,elizabethadams@example.com,345-678-9012,29,Female,Miami,USA
+19,Andrew,Campbell,andrewcampbell@example.com,678-901-2345,36,Male,Chicago,USA
+20,Mia,Evans,miaevans@example.com,901-234-5678,25,Female,New York,USA
+21,Christopher,Wright,christopherwright@example.com,123-456-7890,43,Male,Boston,USA
+22,Sofia,Hall,sofiahall@example.com,987-654-3210,27,Female,San Francisco,USA
+23,Joshua,Young,joshuayoung@example.com,456-789-0123,34,Male,Dallas,USA
+24,Avery,Martin,averymartin@example.com,789-012-3456,31,Female,Los Angeles,USA
+25,David,Wilson,davidwilson@example.com,234-567-8901,39,Male,Seattle,USA
+26,Scarlett,Lopez,scarlettlopez@example.com,678-901-2345,40,Female,Houston,USA
+27,Michael,Mitchell,michaelmitchell@example.com,012-345-6789,35,Male,Denver,USA
+28,Lucy,Hughes,lucyhughes@example.com,345-678-9012,29,Female,Phoenix,USA
+29,Ethan,Turner,ethanturner@example.com,678-901-2345,37,Male,Portland,USA
+30,Ava,Morris,avamorris@example.com,901-234-5678,26,Female,Austin,USA
+31,Matthew,Gonzalez,matthewgonzalez@example.com,123-456-7890,41,Male,San Diego,USA
+32,Charlotte,Parker,charlotteparker@example.com,987-654-3210,33,Female,Atlanta,USA
+33,Daniel,Wright,danielwright@example.com,456-789-0123,35,Male,Miami,USA
+34,Harper,Brooks,harperbrooks@example.com,789-012-3456,27,Female,Chicago,USA
+35,Christopher,Hughes,christopherhughes@example.com,234-567-8901,30,Male,New York,USA
+36,Audrey,Gray,audreygray@example.com,678-901-2345,32,Female,San Francisco,USA
+37,Aiden,Cook,aidencook@example.com,012-345-6789,38,Male,Dallas,USA
+38,Stella,Ross,stellaross@example.com,345-678-9012,29,Female,Los Angeles,USA
+39,James,Hall,jameshall@example.com,678-901-2345,36,Male,Seattle,USA
+40,Lily,Collins,lilycollins@example.com,901-234-5678,25,Female,Phoenix,USA
+41,Jack,Gonzalez,jackgonzalez@example.com,123-456-7890,43,Male,Austin,USA
+42,Ella,Murphy,ellamurphy@example.com,987-654-3210,27,Female,Portland,USA
+43,Logan,Perez,loganperez@example.com,456-789-0123,34,Male,Denver,USA
+44,Victoria,Morgan,victoriamorgan@example.com,789-012-3456,31,Female,Chicago,USA
+45,Liam,Adams,liamadams@example.com,234-567-8901,39,Male,New York,USA
+46,Aria,Ramirez,ariaramirez@example.com,678-901-2345,40,Female,San Francisco,USA
+47,John,Cook,johncook@example.com,012-345-6789,35,Male,Dallas,USA
+48,Nora,Wood,norawood@example.com,345-678-9012,29,Female,Boston,USA
+49,Matthew,Bennett,matthewbennett@example.com,678-901-2345,37,Male,Los Angeles,USA
+50,Chloe,Foster,chloefoster@example.com,901-234-5678,26,Female,Seattle,USA
