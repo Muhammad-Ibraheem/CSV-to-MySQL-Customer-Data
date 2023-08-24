@@ -1,12 +1,20 @@
 import pandas as pd
 import mysql.connector
+import sys
+import json
 
 
 # Get data
 def readData():
-    data = pd.read_csv('customer.csv')
-    processed_data = dataPreProcessing(data)
-    dataStorage(processed_data)
+    try:
+        if len(sys.argv) == 2 and sys.argv[1].endswith(".csv"):
+            data = pd.read_csv(sys.argv[1])
+            processed_data = dataPreProcessing(data)
+            dataStorage(processed_data)
+        else:
+            raise ValueError("Invalid file extension or missing filename argument.")
+    except FileNotFoundError:
+        sys.exit(f"{sys.argv[1]} does not exist")
 
 
 # Preprocessing data
@@ -27,9 +35,19 @@ def dataStorage(data):
     cnx.close()
 
 
+def load_config_file(file_path):
+    with open(file_path, "r") as config_file:
+        return json.load(config_file)
+
+
 # connection to DB
 def connectDb():
-    cnx = mysql.connector.connect(user="user", password="passwprd", host="host", database="database")
+    config = load_config_file("db_config.json")
+    user = config["user"]
+    password = config["password"]
+    host = config["host"]
+    database = config["database"]
+    cnx = mysql.connector.connect(user=user, password=password, host=host, database=database)
     return cnx
 
 
@@ -57,4 +75,7 @@ def saveData(cursor, data):
     cursor.executemany(query, data_tuples)
 
 
-readData()
+try:
+    readData()
+except ValueError as e:
+    print(e)
